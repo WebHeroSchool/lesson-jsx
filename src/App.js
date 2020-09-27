@@ -1,8 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-const nam = 5;
-const flag = true;
 import {count} from './number.js';
 import {length} from './number.js';
 function App() {
@@ -12,26 +10,6 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p style = {{
-        		color: 'red'
-        }}>
-        	Hello World 
-        </p>
-        <p>
-        	{nam}
-        </p>
-        <p>{789}</p>
-        <p>{ Math.pow(2,3)}</p>
-        <p>
-        {flag && 'Flag is true'}
-        </p>
-        <p>
-        	{flag ? 'Flag is true' : 'Flag is false'}
-        	{undefined}
-        	{null}
-        	{false}
-        	{true}
         </p>
         <p>{'count*length='+count*length}</p>
         <a
