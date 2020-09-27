@@ -10,6 +10,26 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p style = {{
+        		color: 'red'
+        }}>
+        	Hello World 
+        </p>
+        <p>
+        	{nam}
+        </p>
+        <p>{789}</p>
+        <p>{ Math.pow(2,3)}</p>
+        <p>
+        {flag && 'Flag is true'}
+        </p>
+        <p>
+        	{flag ? 'Flag is true' : 'Flag is false'}
+        	{undefined}
+        	{null}
+        	{false}
+        	{true}
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
