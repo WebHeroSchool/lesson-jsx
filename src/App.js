@@ -1,7 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+const nam = 5;
+const flag = true;
+import {count} from './number.js';
+import {length} from './number.js';
 function App() {
   return (
     <div className="App">
@@ -30,6 +33,7 @@ function App() {
         	{false}
         	{true}
         </p>
+        <p>{'count*length='+count*length}</p>
         <a
           className="App-link"
           href="https://reactjs.org"
